@@ -5,10 +5,10 @@ import { Footer } from "@/components/footer"
 const experience = [
   {
     id: 1,
-    title: "Software Engineer AI",
-    company: "Florida Department of Revenue",
+    title: "Software Engineer AI/ML",
+    company: "State of Florida",
     location: "Tallahassee, FL",
-    period: "November 2024 – Present",
+    period: "November 2024 – May 2026",
     image: "/PortfolioWebsite/government-finance-analytics-dark.jpg",
     sections: [
       {
@@ -35,7 +35,7 @@ const experience = [
   {
     id: 2,
     title: "Machine Learning Engineer",
-    company: "Firstnet Global",
+    company: "United Cloud Technologies",
     location: "Dallas, TX",
     period: "January 2023 – November 2024",
     image: "/PortfolioWebsite/cloud-ml-engineering-dark.jpg",
