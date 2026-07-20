@@ -4,8 +4,69 @@ import { Footer } from "@/components/footer"
 
 const experience = [
   {
-    id: 1,
-    title: "Software Engineer AI/ML",
+  id: 1,
+  title: "AI/ML Engineer",
+  company: "Apple",
+  location: "Cupertino, CA",
+  period: "June 2026 – Present",
+  image: "/PortfolioWebsite/data-science-visualization-dark.jpg",
+  sections: [
+    {
+      title: "AI/ML Model Development",
+      items: [
+        "Develop and improve production AI/ML solutions using Python, supporting model experimentation, inference, evaluation, and integration into large-scale applications",
+      ],
+    },
+    {
+      title: "LLM Evaluation & Validation",
+      items: [
+        "Create automated evaluation and validation pipelines to measure LLM response quality, identify prompt and data failures, detect model regressions, and improve production readiness",
+      ],
+    },
+    {
+      title: "Inference & ML Services",
+      items: [
+        "Build and integrate scalable inference services and REST APIs that connect machine learning models with internal applications, data workflows, and user-facing platform features",
+      ],
+    },
+    {
+      title: "Data & ML Pipelines",
+      items: [
+        "Develop reliable data ingestion, preprocessing, feature validation, and model evaluation workflows for AI/ML systems operating across Kubernetes and GCP environments",
+      ],
+    },
+    {
+      title: "Monitoring & Optimization",
+      items: [
+        "Monitor model quality, inference latency, throughput, error rates, and resource utilization using Datadog, Prometheus, and Grafana, and optimize systems based on production performance",
+      ],
+    },
+    {
+      title: "Cross-Functional Delivery",
+      items: [
+        "Collaborate with machine learning engineers, researchers, software engineers, and partner teams through design reviews, code reviews, testing, documentation, and knowledge sharing",
+      ],
+    },
+  ],
+  techStack: [
+    "Python",
+    "Machine Learning",
+    "LLMs",
+    "Model Evaluation",
+    "Prompt Engineering",
+    "Model Inference",
+    "REST APIs",
+    "Data Pipelines",
+    "Kubernetes",
+    "GCP",
+    "Datadog",
+    "Prometheus",
+    "Grafana",
+  ],
+},
+  {
+    id: 2,
+    title: "AI/ML Software Engineer",
     company: "State of Florida",
     location: "Tallahassee, FL",
     period: "November 2024 – May 2026",
@@ -33,11 +94,11 @@ const experience = [
     techStack: ["Python", "FastAPI", "LLMs", "RAG", "AWS Lambda", "ECS", "Terraform", "GPU Optimization"],
   },
   {
-    id: 2,
+    id: 3,
     title: "Machine Learning Engineer",
     company: "United Cloud Technologies",
     location: "Dallas, TX",
-    period: "January 2023 – November 2024",
+    period: "July 2024 – November 2024",
     image: "/PortfolioWebsite/cloud-ml-engineering-dark.jpg",
     sections: [
       {
@@ -54,30 +115,7 @@ const experience = [
       },
     ],
     techStack: ["Python", "Docker", "Kubernetes", "Kafka", "Spark", "LLMs", "RAG", "Microservices"],
-  },
-  {
-    id: 3,
-    title: "Software Engineer",
-    company: "Silicon Matrix",
-    location: "Hyderabad, India",
-    period: "December 2020 – July 2022",
-    image: "/PortfolioWebsite/data-science-visualization-dark.jpg",
-    sections: [
-      {
-        title: "Data Pipeline Engineering",
-        items: [
-          "Developed high-throughput Python multiprocessing data pipelines processing 500K+ daily records, improving SQL query performance by 30% and achieving 99.8% data accuracy through validation and optimization techniques",
-        ],
-      },
-      {
-        title: "ML Integration",
-        items: [
-          "Assisted in integrating machine learning scoring modules into backend systems to support real-time prediction and automated decision workflows in enterprise applications",
-        ],
-      },
-    ],
-    techStack: ["Python", "SQL", "Multiprocessing", "Data Pipelines", "ML Integration", "Backend Systems"],
-  },
+  }
 ]
 
 export default function ExperiencePage() {
